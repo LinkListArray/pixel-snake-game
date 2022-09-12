@@ -1,8 +1,8 @@
 <template>
     <div class="board">
-        <div style="text-align: left">难度：{{ gameInfo.level }}</div>
-        <div style="text-align: center">分数：{{ gameInfo.score }}</div>
-        <div style="text-align: right">历史最高：{{ gameInfo.bestLevel }} - {{gameInfo.bestScore }}</div>
+        <div style="text-align: left">level：{{ gameInfo.level }}</div>
+        <div style="text-align: center">score：{{ gameInfo.score }}</div>
+        <div style="text-align: right">best：{{ gameInfo.bestLevel }} - {{gameInfo.bestScore }}</div>
     </div>
 </template>
 

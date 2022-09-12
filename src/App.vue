@@ -16,12 +16,10 @@ const startGame = () => {
       <GameInfo />
       <GameMain ref='gameMain' />
       <div class="mask" v-if="!gameStore.running">
-        <button @click="startGame">开始游戏</button>
+        <button @click="startGame">Start Game</button>
       </div>
     </div>
-
   </div>
-
 </template>
 
 <style lang="less" scoped>
